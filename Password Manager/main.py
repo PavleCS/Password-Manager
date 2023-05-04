@@ -103,7 +103,7 @@ email_label = Label(text="Email/Username:", font=(FONT, SIZE, STYLE), bg=LIGHT_B
 email_label.grid(column=0, row=2)
 
 email_entry = Entry(width=35)
-email_entry.insert(0, "lebeda.pavle@yahoo.com")
+email_entry.insert(0, "add your email here")
 email_entry.grid(column=1, row=2, columnspan=2, sticky="EW")
 
 # ------------------------------ Password ------------------------------ #
